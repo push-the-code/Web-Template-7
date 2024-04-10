@@ -16,8 +16,13 @@
                 font-size: 16px;
             }
             .navbar {
+                display: none;
+                width: 100%;
                 background: #f5f5f5;
-                word-spacing: 3px;
+                position: fixed;
+                top: 0;
+                z-index: 1;
+                box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
             }
             .navbar > .nav-section {
                 width: 100%;
@@ -27,6 +32,7 @@
             .navbar > .nav-section > a {
                 float: left;
                 padding: 8px 16px;
+                letter-spacing: 4px;
             }
             .navbar > .nav-section > a:hover {
                 background: #e5e5e5;
@@ -36,11 +42,32 @@
                 display: inline-block;
             }
             .navbar > .nav-section > .nav-right > a {
-                padding: 8px 16px;
                 float: left;
+                padding: 8px 16px;
+                letter-spacing: 4px;
             }
             .navbar > .nav-section > .nav-right > a:hover {
                 background: #e5e5e5;
+            }
+            
+            .cover {
+                position: relative;
+            }
+            .cover > h1 {
+                width: fit-content;
+                z-index: 1;
+                color: #ffffff;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                position: absolute;
+                vertical-align: middle;
+                border: 1px solid;
+            }
+            .cover > img {
+                width: 100%;
+                height: auto;
+                z-index: -1;
             }
         </style>
     </head>
@@ -55,5 +82,9 @@
                 </section>
             </section>
         </nav>
+        <div class="cover">
+            <h1><span style="background: #000000; color: #ffffff;">BR</span> Architect</h1>
+            <img src="https://www.w3schools.com/w3images/architect.jpg" alt="" />
+        </div>
     </body>
 </html>
