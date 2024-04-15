@@ -31,6 +31,7 @@ img {
 .navbar > .nav-section > a {
     float: left;
     padding: 10px 16px;
+    font-size: 18px;
     letter-spacing: 4px;
 }
 .navbar > .nav-section > a:hover {
@@ -43,6 +44,7 @@ img {
 .navbar > .nav-section > .nav-right > a {
     float: left;
     padding: 10px 16px;
+    font-size: 18px;
     letter-spacing: 4px;
 }
 .navbar > .nav-section > .nav-right > a:hover {
@@ -59,13 +61,14 @@ img {
     left: 0;
     right: 0;
     z-index: 0;
+    font-size: 36px;
     font-weight: 400;
     position: absolute;
 }
 .header > h1 > span:first-child {
     background: rgba(0, 0, 0, 0.7);;
     color: #ffffff;
-    padding: 8px 12px;
+    padding: 8px 16px;
     font-weight: bold;
     margin: 0 12px;
 }
